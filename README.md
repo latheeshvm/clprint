@@ -18,19 +18,9 @@ pip install clprint
 Import the package in your Python script:
 
 ```bash
-from clprint import * # imports everything - recommended
-```
-
-or
-
-```bash
+from clprint import * # imports everything
+from clprint import print_g # print_g("Hello")
 import clprint as cl # cl.print_r("Hello")
-```
-
-or
-
-```bash
-from clprint import print_r # print_r("Hello")
 ```
 
 ## Printing in different colors ✨
